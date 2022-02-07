@@ -1,5 +1,7 @@
 # dsExposome
 
+[![Build Status](https://dev.azure.com/xavierescribamontagut/datashield-packages/_apis/build/status/ESCRI11.dsExposome-1?branchName=master)](https://dev.azure.com/xavierescribamontagut/datashield-packages/_build/latest?definitionId=1&branchName=master)
+
 # Introduction
 
 Exposome functions (server side) for DataSHIELD. These are server side functions for exposome analysis of private data.
