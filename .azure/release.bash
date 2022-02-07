@@ -11,6 +11,7 @@
 # - GITHUB_TOKEN: password used to push to github
 # - R_LIBS_USER: home directory user libraries
 # - CODECOV_TOKEN: token to authenticate to codecov
+echo $(GITHUB_TOKEN)
 
 git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${BUILD_REPOSITORY_NAME}.git"
 git checkout -f master
