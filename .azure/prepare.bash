@@ -12,3 +12,4 @@ Rscript -e "BiocManager::install('rexposome', lib='${R_LIBS_USER}')"
 Rscript -e "withr::with_libpaths(new = '${R_LIBS_USER}', devtools::install_github('datashield/dsBaseClient', ref='6.1.0'))"
 cd "${BUILD_REPOSITORY_LOCALPATH}"
 #
+#
